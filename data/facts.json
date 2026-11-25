@@ -1,0 +1,470 @@
+{
+  "schema_version": "1.0",
+  "as_of": "2026-11-25",
+  "facts": [
+    {
+      "id": "profile-001",
+      "field": "preferred_alias",
+      "value": "尤百万",
+      "evidence": "U",
+      "as_of": "2026-11-23",
+      "publishable": true
+    },
+    {
+      "id": "profile-002",
+      "field": "age",
+      "value": 26,
+      "evidence": "U",
+      "as_of": "2026",
+      "publishable": false,
+      "note": "年龄仅与2026年本人描述相关"
+    },
+    {
+      "id": "profile-003",
+      "field": "gender",
+      "value": "男",
+      "evidence": "U",
+      "as_of": "2026",
+      "publishable": false
+    },
+    {
+      "id": "profile-004",
+      "field": "work_city",
+      "value": "河北石家庄为主要工作中心",
+      "evidence": "U",
+      "as_of": "2026",
+      "publishable": false
+    },
+    {
+      "id": "profile-005",
+      "field": "job",
+      "value": "公考综A讲师、国税面试训练中",
+      "evidence": "U",
+      "as_of": "2026-11-23",
+      "publishable": true
+    },
+    {
+      "id": "capability-001",
+      "field": "primary_skill",
+      "value": "结构化表达",
+      "evidence": "U",
+      "as_of": "2026-11-10",
+      "publishable": true
+    },
+    {
+      "id": "capability-002",
+      "field": "other_skills",
+      "value": [
+        "健身",
+        "AI",
+        "自媒体"
+      ],
+      "evidence": "U",
+      "as_of": "2026-11-10",
+      "publishable": true
+    },
+    {
+      "id": "career-001",
+      "field": "teaching_day_pay_historical",
+      "value": "约700元/天",
+      "evidence": "U",
+      "as_of": "2026-10",
+      "publishable": false
+    },
+    {
+      "id": "career-002",
+      "field": "tax_interview_training",
+      "value": "2026-10-17启动；当时要求每天本人模拟授课录音至少6小时",
+      "evidence": "U",
+      "as_of": "2026-10-17",
+      "publishable": false,
+      "note": "当期要求，后续任务有变；实际完成量待核。"
+    },
+    {
+      "id": "goal-001",
+      "field": "side_income_target",
+      "value": "2026-06提出两个月线上兼职2—3万元",
+      "evidence": "U",
+      "as_of": "2026-06-02",
+      "publishable": false
+    },
+    {
+      "id": "media-001",
+      "field": "main_platform",
+      "value": "抖音",
+      "evidence": "U",
+      "as_of": "2026-11-10",
+      "publishable": true
+    },
+    {
+      "id": "media-002",
+      "field": "content_topics",
+      "value": [
+        "健身",
+        "AI实践"
+      ],
+      "evidence": "U",
+      "as_of": "2026-11-10",
+      "publishable": true,
+      "note": "2026-11-10的历史账号方向；11-24实际发布状态见 media-004。"
+    },
+    {
+      "id": "tool-001",
+      "field": "Claude_policy",
+      "value": "不作为长期方案依赖",
+      "evidence": "U",
+      "as_of": "2026-11-05",
+      "publishable": false
+    },
+    {
+      "id": "tool-002",
+      "field": "Grok_policy",
+      "value": "助益有限，非必要核心工具",
+      "evidence": "U",
+      "as_of": "2026-11-14",
+      "publishable": false
+    },
+    {
+      "id": "life-001",
+      "field": "parking_offers",
+      "value": "珺合府400与500元/月，管理费另计，未看位",
+      "evidence": "U",
+      "as_of": "2026-11-21",
+      "publishable": false
+    },
+    {
+      "id": "personality-001",
+      "field": "mbti_exploration",
+      "value": "AI判断偏ENTP，未经标准测验验证",
+      "evidence": "A",
+      "as_of": "2026-11-05",
+      "publishable": false
+    },
+    {
+      "id": "career-003",
+      "field": "first_year_offline_lectures",
+      "value": "2026年开始正式承担线下综A授课",
+      "evidence": "U",
+      "as_of": "2026-10-04",
+      "publishable": false,
+      "note": "旧版人生决策系统 profile/me.md 本人自述。11-25确认的首次正式综A课见 career-006。"
+    },
+    {
+      "id": "career-004",
+      "field": "tax_interview_materials",
+      "value": "10讲国税基础理论 Word 与7场三水课程结构记录",
+      "evidence": "D",
+      "as_of": "2026-11-06",
+      "publishable": false,
+      "note": "稿件与听课结构，实际练习及考核待核"
+    },
+    {
+      "id": "project-001",
+      "field": "decision_system_release",
+      "value": "本地人生决策系统 V0.1",
+      "evidence": "D",
+      "as_of": "2026-10-04",
+      "publishable": false,
+      "note": "已见本地提交与测试；本人11-25确认已停用，历史保留。"
+    },
+    {
+      "id": "project-002",
+      "field": "content_engine_demo",
+      "value": "基于本人课程转写的 Content Engine 演示交付包",
+      "evidence": "D",
+      "as_of": "2026-11-02",
+      "publishable": false,
+      "note": "有实物样稿，外部试用和付费待核"
+    },
+    {
+      "id": "media-003",
+      "field": "november_fitness_edits",
+      "value": "剪映《健身反差》及《双机位健身卡点》",
+      "evidence": "D",
+      "as_of": "2026-11-20",
+      "publishable": false,
+      "note": "前者有后续验收记录，后者完成技术质检，两条发布状态待核"
+    },
+    {
+      "id": "career-005",
+      "field": "tax_interview_training_current",
+      "value": "仍在培训阶段，已听完水姐基础课，正在模拟试讲",
+      "evidence": "U",
+      "as_of": "2026-11-24",
+      "publishable": false,
+      "note": "11-24本人确认；本地拆解数量和训练量分别留档"
+    },
+    {
+      "id": "media-004",
+      "field": "douyin_recent_publishing",
+      "value": "《练完这一下》系列视频已停止；近期发布以《哪张更有感觉》健身动态照片为主",
+      "evidence": "U",
+      "as_of": "2026-11-24",
+      "publishable": false,
+      "note": "11-24本人确认；具体发布日期待补"
+    },
+    {
+      "id": "project-003",
+      "field": "campus_partner_current",
+      "value": "当前只准备发展高校站长，正等待总部统一培训，后续持续推进并完善工作流",
+      "evidence": "U",
+      "as_of": "2026-11-24",
+      "publishable": false,
+      "note": "11-24本人确认；项目规划与试点结果分别更新"
+    },
+    {
+      "id": "profile-006",
+      "field": "education",
+      "value": "2018—2022年，本科给排水科学与工程；2022年一类本科毕业，工科学士学位",
+      "evidence": "U",
+      "as_of": "2026-11-25",
+      "publishable": false,
+      "note": "学历、专业和学位均按本人表述"
+    },
+    {
+      "id": "career-006",
+      "field": "first_comprehensive_a_lecture",
+      "value": "2026年8月中旬首次正式授课，为期7天",
+      "evidence": "U",
+      "as_of": "2026-11-25",
+      "publishable": false,
+      "note": "本人确认月份和大致时段"
+    },
+    {
+      "id": "career-007",
+      "field": "entry_into_exam_training",
+      "value": "本科毕业后接受两年部队文化教育，随后自行选择公考培训机构学习一年，考公未果后进入培训行业",
+      "evidence": "U",
+      "as_of": "2026-11-25",
+      "publishable": false,
+      "note": "本人按阶段回顾"
+    },
+    {
+      "id": "career-008",
+      "field": "mock_lecture_archive_plan",
+      "value": "三水其余课程场次尚未整理，自2026-11-25起计划逐步归档本人模拟试讲片段",
+      "evidence": "U",
+      "as_of": "2026-11-25",
+      "publishable": false,
+      "note": "本人计划；入档与考核结果随后更新"
+    },
+    {
+      "id": "career-009",
+      "field": "yinchuan_site_handover",
+      "value": "落实硬件设备并拍摄宣传素材，返回后交由公司其他部门同事线上跟进",
+      "evidence": "U",
+      "as_of": "2026-11-25",
+      "publishable": false,
+      "note": "后续进展本人暂未知"
+    },
+    {
+      "id": "project-004",
+      "field": "decision_system_current",
+      "value": "已停止用人生决策系统 V0.1，现更常用 yisun 决策系统",
+      "evidence": "U",
+      "as_of": "2026-11-25",
+      "publishable": false,
+      "note": "本人确认工具取舍"
+    },
+    {
+      "id": "media-005",
+      "field": "xiaohongshu_comprehensive_a_status",
+      "value": "小红书综A已停更，取消后续发布计划",
+      "evidence": "U",
+      "as_of": "2026-11-25",
+      "publishable": false,
+      "note": "保留已有样稿与历史流程"
+    },
+    {
+      "id": "fitness-001",
+      "field": "systematic_training_start",
+      "value": "2025年开始系统健身",
+      "evidence": "U",
+      "as_of": "2026-11-25",
+      "publishable": false,
+      "note": "本人提供到年份"
+    },
+    {
+      "id": "fitness-002",
+      "field": "current_training_focus",
+      "value": "保持全身体态，未来1—3个月希望腿部肌肉更发达",
+      "evidence": "U",
+      "as_of": "2026-11-25",
+      "publishable": false,
+      "note": "11-25确认的训练方向与目标"
+    },
+    {
+      "id": "project-005",
+      "field": "campus_partner_training_status",
+      "value": "截至2026-11-25总部统一培训尚未开展，后续持续跟进与整理",
+      "evidence": "U",
+      "as_of": "2026-11-25",
+      "publishable": false,
+      "note": "本人确认当前阶段"
+    },
+    {
+      "id": "project-006",
+      "field": "esports_prediction_status",
+      "value": "英雄联盟预测已搁置，保留历史记录",
+      "evidence": "U",
+      "as_of": "2026-11-25",
+      "publishable": false,
+      "note": "本人确认项目状态"
+    },
+    {
+      "id": "life-002",
+      "field": "vehicle_delivery_and_registration",
+      "value": "2026-11-24已提车并验收，车况良好；2026-11-25正在办理上牌",
+      "evidence": "U",
+      "as_of": "2026-11-25",
+      "publishable": false,
+      "note": "提车日由本人在11-25回复确认"
+    },
+    {
+      "id": "goal-002",
+      "field": "primary_development_directions",
+      "value": [
+        "职业",
+        "健身"
+      ],
+      "evidence": "U",
+      "as_of": "2026-11-25",
+      "publishable": false,
+      "note": "本人确认继续沿用此前的思路"
+    },
+    {
+      "id": "profile-007",
+      "field": "self_described_work_style",
+      "value": "习惯寻找第一性原理，偏好直率礼貌，愿意长期积累并强化落地",
+      "as_of": "2026-11-20",
+      "evidence": "U",
+      "publishable": false,
+      "note": "11-20本人自评与希望提升的方向",
+      "source_archive": "人生信息档案补充包",
+      "source_evidence_ids": [
+        "U087"
+      ]
+    },
+    {
+      "id": "profile-008",
+      "field": "ai_task_collaboration_preferences",
+      "value": "复杂任务先拆、优先复用已有专业角色，明确负责人、资料、交付物和验收；代码及生成任务交Codex",
+      "as_of": "2026-11-20",
+      "evidence": "U",
+      "publishable": false,
+      "note": "当日双层分工提议，按实际任务和权限适用",
+      "source_archive": "人生信息档案补充包",
+      "source_evidence_ids": [
+        "U087",
+        "U012"
+      ]
+    },
+    {
+      "id": "career-010",
+      "field": "historical_interview_trial_feedback",
+      "value": "讲题深度和逻辑较获认可，节奏、互动与引导答题动作待改进",
+      "as_of": "2026-06-02",
+      "evidence": "H",
+      "publishable": false,
+      "note": "旧历史摘要，可能同源。记录的是早期面试试讲反馈",
+      "source_archive": "人生信息档案补充包",
+      "source_evidence_ids": [
+        "H015",
+        "M13"
+      ]
+    },
+    {
+      "id": "goal-003",
+      "field": "november_teaching_and_delivery_goals",
+      "value": "提升结构化表达、授课水平和主业收入，形成稳定内容生产与副业能力",
+      "as_of": "2026-11-20",
+      "evidence": "U",
+      "publishable": false,
+      "note": "当时写下的长期目标。较新主线见 goal-002",
+      "source_archive": "人生信息档案补充包",
+      "source_evidence_ids": [
+        "U087"
+      ]
+    },
+    {
+      "id": "project-007",
+      "field": "campus_partner_single_school_preparation",
+      "value": "本人自述上级同意独立发展一所高校，当时等培训与说明会",
+      "as_of": "2026-11-21",
+      "evidence": "U",
+      "publishable": false,
+      "note": "AI任务限于选校筹备另见U006。11-25仍未开展总部培训",
+      "source_archive": "人生信息档案补充包",
+      "source_evidence_ids": [
+        "U013"
+      ]
+    },
+    {
+      "id": "project-008",
+      "field": "campus_partner_historical_school_filter",
+      "value": "石家庄周边、关注考公需求，排除河北、内蒙古、天津、山东，当时无现成资源，可到场",
+      "as_of": "2026-11-23",
+      "evidence": "U",
+      "publishable": false,
+      "note": "日期为包快照，原陈述日期未知。本人筛选口径",
+      "source_archive": "人生信息档案补充包",
+      "source_evidence_ids": [
+        "U006"
+      ]
+    },
+    {
+      "id": "media-006",
+      "field": "historical_content_experiment",
+      "value": "生活号当时拟按健身40%、AI实践40%、健身与AI结合20%做初期测试",
+      "as_of": "2026-11-19",
+      "evidence": "U",
+      "publishable": false,
+      "note": "规划比例，11-24实际发布以动态照片为主",
+      "source_archive": "人生信息档案补充包",
+      "source_evidence_ids": [
+        "U032"
+      ]
+    },
+    {
+      "id": "media-007",
+      "field": "public_exam_popularization_concept",
+      "value": "公考常识和考生痛点分享，真人口播配页面展示",
+      "as_of": "2026-11-20",
+      "evidence": "U",
+      "publishable": false,
+      "note": "本人说明当时尚未开发，与小红书综A历史实验分开",
+      "source_archive": "人生信息档案补充包",
+      "source_evidence_ids": [
+        "U087"
+      ]
+    },
+    {
+      "id": "life-003",
+      "field": "vehicle_model_range",
+      "value": "焕新 Model 3（2024款及以后）",
+      "as_of": "2026-11-21",
+      "evidence": "U",
+      "publishable": false,
+      "note": "本人当时选配件时提供的车型范围",
+      "source_archive": "人生信息档案补充包",
+      "source_evidence_ids": [
+        "U025"
+      ]
+    },
+    {
+      "id": "life-004",
+      "field": "shopping_comparison_preferences",
+      "value": "比对同款渠道到手价，比较合单或分单用券的总价",
+      "as_of": "2026-11-19",
+      "evidence": "U",
+      "publishable": false,
+      "note": "11-19购物讨论中的偏好",
+      "source_archive": "人生信息档案补充包",
+      "source_evidence_ids": [
+        "U028",
+        "U047",
+        "U048"
+      ]
+    }
+  ]
+}

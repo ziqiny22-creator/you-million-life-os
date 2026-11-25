@@ -1,0 +1,25 @@
+# Data that must never be pushed by accident
+.env
+.env.*
+*.pem
+*.key
+*secret*
+*token*
+.DS_Store
+Thumbs.db
+__pycache__/
+*.pyc
+private_raw/
+local_vault/
+credentials/
+insurance_originals/
+*.pdf
+*.doc
+*.docx
+*.xlsx
+*.mp4
+*.mov
+*.jpg
+*.jpeg
+*.png
+*.zip

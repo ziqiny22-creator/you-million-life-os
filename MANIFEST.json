@@ -1,0 +1,17 @@
+{
+  "schema_version": "1.0",
+  "snapshot_date": "2026-11-25",
+  "editorial_policy": "facts vs user opinions vs assistant hypotheses; private/public separated",
+  "scope": "recoverable historical context and dated local project evidence, not exhaustive full chat export",
+  "full_archive_visibility": "private",
+  "public_archive_visibility": "public",
+  "archive_version": "1.3.0",
+  "base_archive": "you-million-life-os-private-2026-11-23.zip",
+  "local_enrichment_date": "2026-11-23",
+  "supplemental_source": {
+    "file": "人生信息档案补充包",
+    "snapshot_date": "2026-11-23",
+    "version": "v3",
+    "evidence_count": 282
+  }
+}
